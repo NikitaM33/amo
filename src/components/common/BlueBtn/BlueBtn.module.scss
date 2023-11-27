@@ -1,0 +1,18 @@
+$white: #E4E5EA;
+$blue: #4077F3;
+
+.btn {
+    padding: 1.3125rem 2.125rem;
+    color: $white;
+    font-weight: 500;
+    font-size: 1rem;
+    background: $blue;
+    border: none;
+    outline: none;
+    transition: 0.3s all;
+    cursor: pointer;
+
+    &:hover {
+        background: darken($blue, 5%);
+    }
+}
